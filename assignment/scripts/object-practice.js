@@ -10,7 +10,10 @@ console.log('***** Object Practice *****')
 */
 const me = {
   // TODO - add properties here
+  firstName: "Kay", lastName: "Adebanjo", boolean: "hasSiblings", shoeCount: 10,
+
 };
+let favThreeFoods = ['rice', 'beans', 'egg'] 
 console.log('A little about me:', me);
 
 /* 2. Accessing object properties.
