@@ -13,7 +13,8 @@ const me = {
   firstName: "Kay", lastName: "Adebanjo", boolean: "hasSiblings", shoeCount: 10,
 
 };
-let favThreeFoods = ['rice', 'beans', 'egg'] 
+let favThreeFoods = ['rice', 'beans', 'egg'];
+
 console.log('A little about me:', me);
 
 /* 2. Accessing object properties.
@@ -23,13 +24,15 @@ console.log('A little about me:', me);
   - Console.log fullName
 */
 
-
+let fullName = ('Kay ' + 'Adebanjo');
+console.log(fullName)
 
 /* 3. Nested arrays
   - Console.log your first favorite food
   - Console.log your last favorite food 
 */
-
+console.log('my first favorite food is', favThreeFoods[0])
+console.log('my first favorite food is', favThreeFoods[favThreeFoods.length-1])
 
 
 /* 4. Change a property of an existing object.
